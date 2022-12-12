@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "overpass","sans-serif";
+}
+
+html,body {
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.rating-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rating-content{
+    width: 380px;
+    height: 350px;
+    background: linear-gradient(230deg, hsl(213, 19%, 18%), #192841);
+    border-radius: 30px;
+}
+.rating-wrapper{
+    margin: 1.5rem;
+}
+.rating-icons-star{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+}
+.rating-icons-star .rating-icons-img{
+    position: absolute;
+    top: 12px;
+    left: 13px;
+    width: 15px;  
+}
+.rating-text{
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.rating-text h1{
+    padding-bottom: 1rem;
+}
+.rating-text p{
+    font-size: 15px;
+    line-height: 1.5;
+    color: hsl(216, 12%, 54%);
+}
+
+.rating-score{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.rating-score .btn-score{
+    padding: 1rem 1.3rem;
+    background: hsl(214, 22%, 19%);
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+}
+.rating-score .btn-score:hover{
+    background-color: hsl(216, 12%, 54%);
+}
+.rating-score .btn-score:active{
+    background-color: hsl(25, 97%, 53%);
+}
+.rating-button{
+    width: 100%;
+    height: 40px;
+}
+.rating-button .btn-submit{
+    width: 100%;
+    height: 100%;
+    background: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+}
+.rating-button button:hover{
+    background: #fff;
+    color: hsl(25, 97%, 53%);
+}
+
+.hidden{
+    display: none;
+}
+.thankyou-wrapper{
+    margin: 1rem 2rem;
+    text-align: center;
+}
+.thankyou-img{
+    margin-bottom: 1rem;
+}
+.thankyou-rate{
+    display: inline-block;
+    border-radius: 30px;
+    background-color: hsl(214, 22%, 19%);
+    padding: 0.3rem 1rem;
+    margin-bottom: 1rem;
+}
+.thankyou-rate p{
+    color: hsl(25, 97%, 53%);
+    font-size: 15px;
+}
+.thankyou-text{
+    color: #fff;
+}
+.thankyou-text p{
+    margin-top: 0.5rem;
+    color: hsl(216, 6%, 48%);
+}
+.again-button{
+    width: 100%;
+    height: 40px;
+    margin-top: 0.5rem;
+}
+.again-button .btn-again{
+    width: 100%;
+    height: 100%;
+    background: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+}
+.again-button button:hover{
+    background: #fff;
+    color: hsl(25, 97%, 53%);
+}
+/* Media querie */
+@media screen and(max-width: 375px){
+    .rating-content{
+        width: 350px;
+    }
+}

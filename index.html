@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Interactive rating component</title>
+</head>
+
+<body>
+  <section class="rating-select">
+    <div class="rating-container">
+      <div class="rating-content">
+        <div class="rating-wrapper">
+          <div class="rating-icons-star">
+            <img class="rating-icons-img" src="./images/icon-star.svg" alt="">
+          </div>
+          <div class="rating-text">
+            <h1>How did we do?</h1>
+            <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve
+              our
+              offering!</p>
+          </div>
+          <div class="rating-score">
+            <button class="btn-score">1</button>
+            <button class="btn-score">2</button>
+            <button class="btn-score">3</button>
+            <button class="btn-score">4</button>
+            <button class="btn-score">5</button>
+          </div>
+          <div class="rating-button">
+            <button id="submit" class="btn-submit">submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="thank-you hidden">
+    <div class="rating-container">
+      <div class="rating-content">
+        <div class="thankyou-wrapper">
+        <div class="thankyou-img">
+          <img src="/images/illustration-thank-you.svg" alt="">
+        </div>
+        <div class="thankyou-rate">
+          <p>You selected <span id="rating"></span> out of 5</p> 
+        </div>
+        <div class="thankyou-text">
+          <h1>Thank you!</h1>
+          <p>We appreciate you taking the time to give a rating. if you ever need more support, don't hesitate to get in touch!</p>
+        </div>
+        <div class="again-button">
+          <button id="again" class="btn-again">Again</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
